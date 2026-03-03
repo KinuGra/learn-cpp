@@ -20,6 +20,7 @@ int main()
         cout << 1 << endl;
         break;
 
+    // fall through
     case 2:
     case 3:
         cout << "2 or 3\n";
