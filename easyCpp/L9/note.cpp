@@ -44,4 +44,22 @@ int main()
     cout << array + 5 << " " << array[5] << " " << *(array + 5) << endl;
 
     cout << array[5] << 5 [array] << endl;
+
+    int arr[][4] = {
+        {11, 12, 13, 14},
+        {
+            21,
+            22,
+            23,
+            24,
+        },
+    };
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            cout << arr[i][j] << ",";
+        }
+        cout << endl;
+    }
 }
